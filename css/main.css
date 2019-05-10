@@ -1,0 +1,117 @@
+/* all paragraphs set gray color */
+p {
+    color: grey;
+}
+
+/* spacing between letters */
+h3 {
+    letter-spacing: 0.1em;
+}
+
+/* visited links change color */
+a:visited {
+    color: #7e94b8 !important;
+}
+
+/* udacity logo */
+.logo {
+    width: 120px;
+}
+
+/* big pic */
+.center_photo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* each pic */
+.small_photo {
+    width: 100%;
+    height: 70%;
+    padding-bottom: 10%;
+}
+
+/* container for each pic */
+.small_photo_cont {
+    margin-top: 30px;
+}
+
+/* my name and title */
+.my-name {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* each small photo text centered */
+.each {
+    text-align: center;
+}
+
+/* feature work section */
+.featured {
+    margin-top: 30px;
+    padding-left: 20px;
+    color: gray;
+    font-weight: 100;
+}
+
+/* personal name and titile position */
+.title {
+    display: block;
+    float: right;
+}
+
+/* color boxes size */
+.box {
+    width: 60px;
+    min-height: 60px;
+}
+
+/* horizontal line */
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: #7d97ad;
+}
+
+/* main container for all */
+.container {
+    width : 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+/* colors for boxes */
+.turquoise {
+    background-color: #02B3E4;
+}
+
+.dark_grey {
+    background-color: #2d3c49;
+}
+
+.light_grey {
+    background-color: #7d97ad;
+}
+
+/* mobile devices */
+@media screen and (max-width: 414px) {
+    h1, h2 {
+        font-size: 100%
+    }
+
+    h4 {
+        font-size: 50%;
+    }
+    
+    .par {
+        display: block;
+        float:left;
+        margin-left: 7%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
